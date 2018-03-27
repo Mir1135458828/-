@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪类选择器</title>
+	<style type="text/css">
+		a:link{
+			color: red;
+			font-size: 50px;
+		}
+		a:visited{
+			color:green;
+		}
+		a:hover{
+			color: yellow;
+		}
+		a:active{
+			color:white;
+		}
+		/*p:first-letter{
+			color: red;
+			font-size: 50px;
+		}
+		p:first-line{
+			color: pink;
+			font-size: 30px;
+		}*/
+		/*p:before{
+			content:"你是真的傻";
+			color: green;
+		}
+		p:after{
+			content:"我错了，你是傻的没救了";
+			color:yellow;
+		}*/
+		/*p[title*="q"]{
+			color: red;
+			background-color: yellow; 
+			font-size: 50px;
+		}*/
+		p:nth-child(3){
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	
+	<!-- <a href="www.baidu.com" target="_blank">这是百度</a><br />
+	<a href="www.hao123.com">这是好123</a> -->
+	<p title="acdq">你是不是傻</p>
+	<p title="acdw">你是不是傻</p>
+	<p title="119">你是不是傻</p>
+	<p title="105">你是不是傻</p>
+	<p title="118">你是不是傻</p>
+	<p title="115">你是不是傻</p>
+	<input type="text">
+
+	<a href="http\\:www.baidu.com">访问过的</a>
+	<a href="http\\:www.baidu123.com">没有访问过的</a>
+	
+</body>
+</html>
